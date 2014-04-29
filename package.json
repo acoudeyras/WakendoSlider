@@ -19,7 +19,7 @@
     "loadDependencies": [
         {"id": "Widget_V2"},
 		{"id": "KendoCore/package.json", "version": "1.0.0", "path": "WIDGETS_CUSTOM"},
-		{"id": "KendoCore/lib/telerik.kendoui.core/js/kendo.slider.min.js", "version": "1.0.0", "path": "WIDGETS_CUSTOM"},        
+		{"id": "KendoCore/lib/telerik.kendoui.core/js/kendo.slider.min.js", "version": "1.0.0", "path": "WIDGETS_CUSTOM"},
         {"id": "KendoSlider/widget.js", "version": "1.0.0", "path": "WIDGETS_CUSTOM"},
         {"id": "KendoSlider/designer.js", "studioOnly": true, "version": "1.0.0", "path": "WIDGETS_CUSTOM"}
     ]

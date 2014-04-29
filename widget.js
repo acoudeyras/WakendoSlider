@@ -3,7 +3,7 @@ WAF.define('KendoSlider', ['waf-core/widget', 'kendoCore'], function(widget, $) 
     var KendoSlider = widget.create('KendoSlider', {
     	
     	value: widget.property({
-    		type: 'string'
+    		type: 'number'
     	}),
     	
     	min: widget.property({
@@ -47,7 +47,7 @@ WAF.define('KendoSlider', ['waf-core/widget', 'kendoCore'], function(widget, $) 
         	self.smallStep.onChange(self.render);
         	self.largeStep.onChange(self.render);
         	self.showButtons.onChange(self.render);
-        	self.orientation.onChange(self.render);   		
+        	self.orientation.onChange(self.render);
     	},
     	
         init: function() {
@@ -60,7 +60,7 @@ WAF.define('KendoSlider', ['waf-core/widget', 'kendoCore'], function(widget, $) 
         render: function() {
         	var self = this;
         	$(self.node).empty();
-			var $el = $('<input />').appendTo(self.node);        	
+			var $el = $('<input />').appendTo(self.node);
 			
     		$el.kendoSlider({
     			min: self.min(),
