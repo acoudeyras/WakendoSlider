@@ -1,4 +1,5 @@
 WAF.define('KendoSlider', ['waf-core/widget', 'kendoCore'], function(widget, $) {
+	'use strict';
 	
     var KendoSlider = widget.create('KendoSlider', {
     	
