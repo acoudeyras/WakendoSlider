@@ -1,7 +1,7 @@
-WAF.define('KendoSlider', ['waf-core/widget', 'kendoCore'], function(widget, $) {
-	'use strict';
-	
-    var KendoSlider = widget.create('KendoSlider', {
+WAF.define('WakendoSlider', ['waf-core/widget', 'wakendoCore'], function(widget, $) {
+    'use strict';
+
+    var KendoSlider = widget.create('WakendoSlider', {
     	
     	value: widget.property({
     		type: 'number'
