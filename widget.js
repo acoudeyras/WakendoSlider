@@ -81,11 +81,11 @@ WAF.define('WakendoSlider', ['waf-core/widget', 'wakendoCore'], function(widget,
         },
 
         enable: function() {
-        	self.kendoWidget.enable();
+        	this.kendoWidget.enable();
         },
 
         disable: function() {
-        	self.kendoWidget.enable(false);
+        	this.kendoWidget.enable(false);
         }
         
     });
